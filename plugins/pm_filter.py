@@ -573,7 +573,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                            ],[
                               InlineKeyboardButton("𝙶𝚁𝙾𝚄𝙿 𝙾𝚆𝙽𝙴𝚁", url="t.me/SRJ725")
                              ],[                   
-                               InlineKeyboardButton('SAMPLE VIDEO BOT',url=SAM_LNK)
+                               InlineKeyboardButton('𝚂𝙰𝙼𝙿𝙻𝙴 𝚅𝙸𝙳𝙴𝙾 𝙱𝙾𝚃',url=SAM_LNK)
                                ]
                             ]
                         )
@@ -623,7 +623,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                ],[
                   InlineKeyboardButton("𝙶𝚁𝙾𝚄𝙿 𝙾𝚆𝙽𝙴𝚁", url="t.me/SRJ725")
                  ],[                   
-                  InlineKeyboardButton('SAMPLE VIDEO BOT',url=SAM_LNK)
+                  InlineKeyboardButton('𝚂𝙰𝙼𝙿𝙻𝙴 𝚅𝙸𝙳𝙴𝙾 𝙱𝙾𝚃',url=SAM_LNK)
                  ]
                 ]
             )
