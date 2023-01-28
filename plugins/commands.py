@@ -22,11 +22,13 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('⌬ Tᴇʟᴇꜰʟɪx Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('⤬ 𝙰𝚍𝚍 𝙼𝚎 𝚝𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('♔ 𝙱𝚘𝚝 𝙾𝚠𝚗𝚎𝚛', callback_data="owner_info"),
+                    InlineKeyboardButton('⌬ 𝚃𝚎𝚕𝚎𝙵𝚕𝚒𝚡 𝙶𝚛𝚘𝚞𝚙', url=GRP_LNK)
+                ],[
+                    InlineKeyboardButton('〄 𝙷𝚎𝚕𝚙', callback_data='help'),
+                    InlineKeyboardButton('⍟ 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
                     
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,11 +44,11 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('⌬ Tᴇʟᴇꜰʟɪx Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('♔ 𝙱𝚘𝚝 𝙾𝚠𝚗𝚎𝚛', callback_data="owner_info"),
+                    InlineKeyboardButton('⌬ 𝚃𝚎𝚕𝚎𝙵𝚕𝚒𝚡 𝙶𝚛𝚘𝚞𝚙', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('〄 𝙷𝚎𝚕𝚙', callback_data='help'),
+                    InlineKeyboardButton('⍟ 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
                     
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -87,11 +89,11 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('⌬ Tᴇʟᴇꜰʟɪx Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('♚ 𝙱𝚘𝚝 𝙾𝚠𝚗𝚎𝚛', callback_data="owner_info"),
+                    InlineKeyboardButton('⌬ 𝚃𝚎𝚕𝚎𝙵𝚕𝚒𝚡 𝙶𝚛𝚘𝚞𝚙', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('〄 𝙷𝚎𝚕𝚙', callback_data='help'),
+                    InlineKeyboardButton('⍟ 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
                    
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -143,10 +145,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Tᴇʟᴇꜰʟɪx Gʀᴏᴜᴘ', url=GRP_LNK)
+                          InlineKeyboardButton('TELEFLIX GROUP', url=GRP_LNK)
                          
                        ],[
-                          InlineKeyboardButton("Gʀᴏᴜᴘ Oᴡɴᴇʀ", url="t.me/SRJ725")
+                          InlineKeyboardButton("GROUP OWNER", url="t.me/SRJ725")
                          ]
                         ]
                     )
@@ -162,10 +164,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Tᴇʟᴇꜰʟɪx Gʀᴏᴜᴘ', url=GRP_LNK)
+                          InlineKeyboardButton('TELEFLIX GROUP', url=GRP_LNK) 
                           
                        ],[
-                          InlineKeyboardButton("Gʀᴏᴜᴘ Oᴡɴᴇʀ", url="t.me/SRJ725")
+                          InlineKeyboardButton("GROUP OWNER", url="t.me/SRJ725")
                          ]
                         ]
                     )
@@ -264,10 +266,10 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Tᴇʟᴇꜰʟɪx Gʀᴏᴜᴘ', url=GRP_LNK)
+                      InlineKeyboardButton('TELEFLIX GROUP', url=GRP_LNK)
                       
                    ],[
-                      InlineKeyboardButton("Gʀᴏᴜᴘ Oᴡɴᴇʀ", url="t.me/SRJ725")
+                      InlineKeyboardButton("GROUP OWNER", url="t.me/SRJ725")
                      ]
                     ]
                 )
@@ -317,10 +319,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('Tᴇʟᴇꜰʟɪx Gʀᴏᴜᴘ', url=GRP_LNK)
+              InlineKeyboardButton('TELEFLIX GROUP', url=GRP_LNK)
              
            ],[
-              InlineKeyboardButton("Gʀᴏᴜᴘ Oᴡɴᴇʀ", url="t.me/SRJ725")
+              InlineKeyboardButton("GROUP OWNER", url="t.me/SRJ725")
              ]
             ]
         )
