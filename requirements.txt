@@ -10,4 +10,3 @@ Heroku3
 git+https://github.com/Joelkb/cinemagoer
 datetime
 pytz
-string
