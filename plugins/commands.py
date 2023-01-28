@@ -44,6 +44,8 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
+                    InlineKeyboardButton('⤬ 𝙰𝚍𝚍 𝙼𝚎 𝚝𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[
                     InlineKeyboardButton('♔ 𝙱𝚘𝚝 𝙾𝚠𝚗𝚎𝚛', callback_data="owner_info"),
                     InlineKeyboardButton('⌬ 𝚃𝚎𝚕𝚎𝙵𝚕𝚒𝚡 𝙶𝚛𝚘𝚞𝚙', url=GRP_LNK)
                 ],[
@@ -89,6 +91,8 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
+                    InlineKeyboardButton('⤬ 𝙰𝚍𝚍 𝙼𝚎 𝚝𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[
                     InlineKeyboardButton('♚ 𝙱𝚘𝚝 𝙾𝚠𝚗𝚎𝚛', callback_data="owner_info"),
                     InlineKeyboardButton('⌬ 𝚃𝚎𝚕𝚎𝙵𝚕𝚒𝚡 𝙶𝚛𝚘𝚞𝚙', url=GRP_LNK)
                 ],[
