@@ -38,10 +38,10 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('Tᴇʟᴇꜰʟɪx Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('TELEFLIX GROUP', url=GRP_LNK) 
                     
                  ],[
-                    InlineKeyboardButton("Gʀᴏᴜᴘ Oᴡɴᴇʀ", url="t.me/SRJ725")
+                    InlineKeyboardButton("GROUP OWNER", url="t.me/SRJ725")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -61,10 +61,10 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('Tᴇʟᴇꜰʟɪx Gʀᴏᴜᴘ', url=GRP_LNK)
+                                                                           InlineKeyboardButton('TELEFLIX GROUP', url=GRP_LNK)
                                                                            
                                                                         ],[
-                                                                           InlineKeyboardButton("Gʀᴏᴜᴘ Oᴡɴᴇʀ", url="t.me/SRJ725")
+                                                                           InlineKeyboardButton("GROUP OWNER", url="t.me/SRJ725")
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
