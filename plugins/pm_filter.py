@@ -1106,7 +1106,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ɪᴍᴅʙ', callback_data='IMDB'),
             InlineKeyboardButton('info', callback_data='INFO')
-            ].
+            ],
             [
             InlineKeyboardButton('sᴀᴍᴘʟᴇ ᴠɪᴅᴇᴏ ʙᴏᴛ', callback_data=SAM_LNK)
        ]]
