@@ -334,8 +334,8 @@ async def start(client, message):
            ],[
               InlineKeyboardButton("GROUP OWNER", url="t.me/SRJ725")
              ],[                   
-                               InlineKeyboardButton('𝚂𝙰𝙼𝙿𝙻𝙴 𝚅𝙸𝙳𝙴𝙾 𝙱𝙾𝚃',url=SAM_LNK)
-                               ]
+                InlineKeyboardButton('𝚂𝙰𝙼𝙿𝙻𝙴 𝚅𝙸𝙳𝙴𝙾 𝙱𝙾𝚃',url=SAM_LNK)
+               ]
             ]
         )
     )
